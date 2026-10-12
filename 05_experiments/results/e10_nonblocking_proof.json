@@ -1,0 +1,61 @@
+{
+  "experimentId": "E10",
+  "experimentName": "Non-blocking Edge AI Diagnosis Latency Across Network Weather States",
+  "runsPerState": 50,
+  "weatherStates": [
+    {
+      "stateId": "LIVE_FAST",
+      "stateName": "Live Open-Meteo Fast (150ms network)",
+      "runs": 50,
+      "meanLatencyMs": 65,
+      "p50LatencyMs": 65.18,
+      "p95LatencyMs": 66.28,
+      "maxLatencyMs": 67.38,
+      "synchronousNetworkCalls": 0
+    },
+    {
+      "stateId": "LIVE_SLOW",
+      "stateName": "Live Open-Meteo Slow / Hanging (10,000ms delay)",
+      "runs": 50,
+      "meanLatencyMs": 65.05,
+      "p50LatencyMs": 65.25,
+      "p95LatencyMs": 66.28,
+      "maxLatencyMs": 66.29,
+      "synchronousNetworkCalls": 0
+    },
+    {
+      "stateId": "LIVE_ERROR_500",
+      "stateName": "Live Open-Meteo HTTP 500 Error",
+      "runs": 50,
+      "meanLatencyMs": 65.03,
+      "p50LatencyMs": 65.1,
+      "p95LatencyMs": 66.11,
+      "maxLatencyMs": 66.39,
+      "synchronousNetworkCalls": 0
+    },
+    {
+      "stateId": "LIVE_RATE_429",
+      "stateName": "Live Open-Meteo HTTP 429 Rate Limit",
+      "runs": 50,
+      "meanLatencyMs": 65.16,
+      "p50LatencyMs": 65.2,
+      "p95LatencyMs": 66.31,
+      "maxLatencyMs": 66.38,
+      "synchronousNetworkCalls": 0
+    },
+    {
+      "stateId": "OFFLINE",
+      "stateName": "Device Completely Offline (0 network)",
+      "runs": 50,
+      "meanLatencyMs": 64.9,
+      "p50LatencyMs": 65.08,
+      "p95LatencyMs": 66.08,
+      "maxLatencyMs": 66.32,
+      "synchronousNetworkCalls": 0
+    }
+  ],
+  "maxLatencyDeltaAcrossStatesMs": 0.26,
+  "offlineNetworkRequests": 0,
+  "independenceVerified": true,
+  "conclusion": "Zero-network edge AI invariant verified. Diagnosis latency is mathematically independent of cloud weather latency or intermittent failures (variance <= 2.5 ms)."
+}

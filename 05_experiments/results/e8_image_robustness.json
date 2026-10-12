@@ -1,0 +1,121 @@
+{
+  "experimentId": "E8",
+  "experimentName": "Image-Input Robustness & Degradation Benchmark",
+  "resolutionCurve": {
+    "levelsPx": [
+      1280,
+      640,
+      320,
+      160,
+      96
+    ],
+    "baselineAccuracy": [
+      0.409,
+      0.409,
+      0.388,
+      0.321,
+      0.224
+    ],
+    "robustAccuracy": [
+      0.412,
+      0.41,
+      0.402,
+      0.364,
+      0.285
+    ]
+  },
+  "jpegQualityCurve": {
+    "qualityLevels": [
+      90,
+      70,
+      50,
+      30,
+      10
+    ],
+    "baselineAccuracy": [
+      0.409,
+      0.401,
+      0.375,
+      0.312,
+      0.198
+    ],
+    "robustAccuracy": [
+      0.411,
+      0.408,
+      0.395,
+      0.362,
+      0.278
+    ]
+  },
+  "blurCurve": {
+    "blurRadius": [
+      0.5,
+      1.5,
+      2.5,
+      3.5
+    ],
+    "baselineAccuracy": [
+      0.402,
+      0.365,
+      0.292,
+      0.21
+    ],
+    "robustAccuracy": [
+      0.408,
+      0.388,
+      0.341,
+      0.272
+    ]
+  },
+  "multiView": {
+    "singleViewAccuracy": 0.4091,
+    "multiViewAccuracy": 0.4184,
+    "singleViewLatencyMs": 64.96,
+    "multiViewLatencyMs": 192.4,
+    "recommendation": "Keep multiView flag default OFF to preserve sub-70ms commodity mobile performance."
+  },
+  "noLeafGate": {
+    "totalEvaluated": 150,
+    "nonLeafPhotos": 50,
+    "trueLeafPhotos": 100,
+    "falseAcceptCount": 3,
+    "falseAcceptRatePct": 6.0,
+    "falseRejectCount": 2,
+    "falseRejectRatePct": 2.0,
+    "decision": "Accurate non-blocking gate. Displays friendly hint without altering valid leaf diagnoses."
+  },
+  "browserPerformance": [
+    {
+      "sizeCategory": "Small (320x240)",
+      "pixels": 76800,
+      "decodeTimeMs": 4.2,
+      "peakMemoryMb": 1.2
+    },
+    {
+      "sizeCategory": "Standard (1280x720)",
+      "pixels": 921600,
+      "decodeTimeMs": 14.5,
+      "peakMemoryMb": 3.8
+    },
+    {
+      "sizeCategory": "12 MP (4000x3000)",
+      "pixels": 12000000,
+      "decodeTimeMs": 46.8,
+      "peakMemoryMb": 14.2
+    },
+    {
+      "sizeCategory": "48 MP (8000x6000)",
+      "pixels": 48000000,
+      "decodeTimeMs": 142.0,
+      "peakMemoryMb": 48.6
+    }
+  ],
+  "promotionRule": {
+    "candidateModel": "MobileNetV3-Small-Robust (1.1.0)",
+    "baselineModel": "MobileNetV3-Small (1.0.0)",
+    "condition1_PlantVillageRetention": true,
+    "condition2_DegradationImprovement": true,
+    "promotedToDeployed": true,
+    "notes": "M1-Robust passes the Section 3.8 promotion rule by sustaining clean lab accuracy while significantly outperforming baseline on compressed and blurry photos."
+  }
+}

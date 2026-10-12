@@ -1,0 +1,413 @@
+taxonomyVersion: "1.0.0"
+crops:
+  apple:
+    displayName: "Apple"
+    slug: "apple"
+  blueberry:
+    displayName: "Blueberry"
+    slug: "blueberry"
+  cherry:
+    displayName: "Cherry"
+    slug: "cherry"
+  corn:
+    displayName: "Corn (Maize)"
+    slug: "corn"
+  grape:
+    displayName: "Grape"
+    slug: "grape"
+  orange:
+    displayName: "Orange (Citrus)"
+    slug: "orange"
+  peach:
+    displayName: "Peach"
+    slug: "peach"
+  bell_pepper:
+    displayName: "Bell Pepper"
+    slug: "bell_pepper"
+  potato:
+    displayName: "Potato"
+    slug: "potato"
+  raspberry:
+    displayName: "Raspberry"
+    slug: "raspberry"
+  soybean:
+    displayName: "Soybean"
+    slug: "soybean"
+  squash:
+    displayName: "Squash"
+    slug: "squash"
+  strawberry:
+    displayName: "Strawberry"
+    slug: "strawberry"
+  tomato:
+    displayName: "Tomato"
+    slug: "tomato"
+
+classes:
+  - class_id: "apple__apple_scab"
+    crop: "apple"
+    condition: "apple_scab"
+    displayName: "Apple - Apple Scab"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Venturia inaequalis"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "apple__black_rot"
+    crop: "apple"
+    condition: "black_rot"
+    displayName: "Apple - Black Rot"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Botryosphaeria obtusa"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "apple__cedar_apple_rust"
+    crop: "apple"
+    condition: "cedar_apple_rust"
+    displayName: "Apple - Cedar Apple Rust"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Gymnosporangium juniperi-virginianae"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "apple__healthy"
+    crop: "apple"
+    condition: "healthy"
+    displayName: "Apple - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "blueberry__healthy"
+    crop: "blueberry"
+    condition: "healthy"
+    displayName: "Blueberry - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "cherry__powdery_mildew"
+    crop: "cherry"
+    condition: "powdery_mildew"
+    displayName: "Cherry - Powdery Mildew"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Podosphaera clandestina"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "cherry__healthy"
+    crop: "cherry"
+    condition: "healthy"
+    displayName: "Cherry - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "corn__gray_leaf_spot"
+    crop: "corn"
+    condition: "gray_leaf_spot"
+    displayName: "Corn - Gray Leaf Spot"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Cercospora zeae-maydis"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "corn__common_rust"
+    crop: "corn"
+    condition: "common_rust"
+    displayName: "Corn - Common Rust"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Puccinia sorghi"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "corn__northern_leaf_blight"
+    crop: "corn"
+    condition: "northern_leaf_blight"
+    displayName: "Corn - Northern Leaf Blight"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Setosphaeria turcica"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "corn__healthy"
+    crop: "corn"
+    condition: "healthy"
+    displayName: "Corn - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "grape__black_rot"
+    crop: "grape"
+    condition: "black_rot"
+    displayName: "Grape - Black Rot"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Guignardia bidwellii"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "grape__esca"
+    crop: "grape"
+    condition: "esca"
+    displayName: "Grape - Esca (Black Measles)"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Phaeomoniella chlamydospora"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "grape__leaf_blight_isariopsis"
+    crop: "grape"
+    condition: "leaf_blight_isariopsis"
+    displayName: "Grape - Leaf Blight (Isariopsis Leaf Spot)"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Pseudocercospora cladosporioides"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "grape__healthy"
+    crop: "grape"
+    condition: "healthy"
+    displayName: "Grape - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "orange__citrus_greening"
+    crop: "orange"
+    condition: "citrus_greening"
+    displayName: "Orange - Huanglongbing (Citrus Greening)"
+    pathogen_type: "bacterial"
+    pathogen_scientific_name: "Candidatus Liberibacter asiaticus"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "peach__bacterial_spot"
+    crop: "peach"
+    condition: "bacterial_spot"
+    displayName: "Peach - Bacterial Spot"
+    pathogen_type: "bacterial"
+    pathogen_scientific_name: "Xanthomonas arboricola pv. pruni"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "peach__healthy"
+    crop: "peach"
+    condition: "healthy"
+    displayName: "Peach - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "bell_pepper__bacterial_spot"
+    crop: "bell_pepper"
+    condition: "bacterial_spot"
+    displayName: "Bell Pepper - Bacterial Spot"
+    pathogen_type: "bacterial"
+    pathogen_scientific_name: "Xanthomonas campestris pv. vesicatoria"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "bell_pepper__healthy"
+    crop: "bell_pepper"
+    condition: "healthy"
+    displayName: "Bell Pepper - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "potato__early_blight"
+    crop: "potato"
+    condition: "early_blight"
+    displayName: "Potato - Early Blight"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Alternaria solani"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "potato__late_blight"
+    crop: "potato"
+    condition: "late_blight"
+    displayName: "Potato - Late Blight"
+    pathogen_type: "oomycete"
+    pathogen_scientific_name: "Phytophthora infestans"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "potato__healthy"
+    crop: "potato"
+    condition: "healthy"
+    displayName: "Potato - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "raspberry__healthy"
+    crop: "raspberry"
+    condition: "healthy"
+    displayName: "Raspberry - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "soybean__healthy"
+    crop: "soybean"
+    condition: "healthy"
+    displayName: "Soybean - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "squash__powdery_mildew"
+    crop: "squash"
+    condition: "powdery_mildew"
+    displayName: "Squash - Powdery Mildew"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Podosphaera xanthii"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "strawberry__leaf_scorch"
+    crop: "strawberry"
+    condition: "leaf_scorch"
+    displayName: "Strawberry - Leaf Scorch"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Diplocarpon earlianum"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "strawberry__healthy"
+    crop: "strawberry"
+    condition: "healthy"
+    displayName: "Strawberry - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__bacterial_spot"
+    crop: "tomato"
+    condition: "bacterial_spot"
+    displayName: "Tomato - Bacterial Spot"
+    pathogen_type: "bacterial"
+    pathogen_scientific_name: "Xanthomonas spp."
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__early_blight"
+    crop: "tomato"
+    condition: "early_blight"
+    displayName: "Tomato - Early Blight"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Alternaria solani"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__late_blight"
+    crop: "tomato"
+    condition: "late_blight"
+    displayName: "Tomato - Late Blight"
+    pathogen_type: "oomycete"
+    pathogen_scientific_name: "Phytophthora infestans"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__leaf_mold"
+    crop: "tomato"
+    condition: "leaf_mold"
+    displayName: "Tomato - Leaf Mold"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Passalora fulva"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__septoria_leaf_spot"
+    crop: "tomato"
+    condition: "septoria_leaf_spot"
+    displayName: "Tomato - Septoria Leaf Spot"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Septoria lycopersici"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__two_spotted_spider_mite"
+    crop: "tomato"
+    condition: "two_spotted_spider_mite"
+    displayName: "Tomato - Two-Spotted Spider Mite"
+    pathogen_type: "pest"
+    pathogen_scientific_name: "Tetranychus urticae"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "tomato__target_spot"
+    crop: "tomato"
+    condition: "target_spot"
+    displayName: "Tomato - Target Spot"
+    pathogen_type: "fungal"
+    pathogen_scientific_name: "Corynespora cassiicola"
+    verified: true
+    sources: ["plantvillage"]
+    status: "active"
+
+  - class_id: "tomato__yellow_leaf_curl_virus"
+    crop: "tomato"
+    condition: "yellow_leaf_curl_virus"
+    displayName: "Tomato - Yellow Leaf Curl Virus"
+    pathogen_type: "viral"
+    pathogen_scientific_name: "Begomovirus (TYLCV)"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__mosaic_virus"
+    crop: "tomato"
+    condition: "mosaic_virus"
+    displayName: "Tomato - Mosaic Virus"
+    pathogen_type: "viral"
+    pathogen_scientific_name: "Tobamovirus (ToMV)"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"
+
+  - class_id: "tomato__healthy"
+    crop: "tomato"
+    condition: "healthy"
+    displayName: "Tomato - Healthy"
+    pathogen_type: "healthy"
+    verified: true
+    sources: ["plantvillage", "plantdoc"]
+    status: "active"

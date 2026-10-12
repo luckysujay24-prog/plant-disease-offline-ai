@@ -1,0 +1,23 @@
+{
+  "snapshotAt": "2026-10-09T22:05:00Z",
+  "gitCommit": "initial_baseline_clean_tree",
+  "modelVersion": "1.0.0",
+  "taxonomyVersion": "1.0.0",
+  "testSuiteResults": {
+    "pytest_leakage": "4 passed",
+    "vitest_app": "12 passed (4 files)",
+    "tfjs_parity": "PASSED (0 diff over 100 samples)",
+    "cloud_mock_sync": "PASSED (4 tests, idempotency & 0 data loss)",
+    "check_numbers_audit": "PASSED (20/20 verified)"
+  },
+  "metricsFileHashes": {
+    "SUMMARY.json": "b9a1a6b8d44922a68cd836b2b0d7d07729a2d11133eb15ea89f13964318fd059",
+    "e1_architecture_benchmark.json": "4f98483b18f9c762e701a52e0a0d2633c82b0dbbe85a59e2a23ba1aef8bde966",
+    "e2_crop_conditioning_gap.json": "737e210ee705e9e00855dbb2f14e3d0fde7e53e41f5528e50c0874743f809e9c",
+    "e3_domain_shift.json": "6549ec0cab2e4018818ad068cbee8b23affcbdaa9605c8ebe632e35c8e40dce2",
+    "e4_rejection_calibration.json": "82a2b567f1f832a6275cac887c4e3e2c379504a0e0baa69e227d7b384a58e99b",
+    "e5_weather_hierarchy.json": "08ab09a7e6fe4f9ce267de3c1cbfba2ce242e5a39e5473cf7ea2f91888c78186",
+    "e6_sync_resilience.json": "b8c8cb3ec604163a855d87e8d047bc8c17da34e06146b9c5866973baf8999865",
+    "e7_storage_coldstart.json": "14c662b79082f1cb13edefe04a12df14d3870b2d3eefad648c8d563af4b73904"
+  }
+}

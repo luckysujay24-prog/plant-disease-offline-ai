@@ -1,0 +1,53 @@
+{
+  "2.webp": [
+    {
+      "class": "soybean__healthy",
+      "confidence": 0.232,
+      "percentage": "23.2%"
+    },
+    {
+      "class": "blueberry__healthy",
+      "confidence": 0.1436,
+      "percentage": "14.4%"
+    },
+    {
+      "class": "apple__healthy",
+      "confidence": 0.1321,
+      "percentage": "13.2%"
+    }
+  ],
+  "3.webp": [
+    {
+      "class": "potato__early_blight",
+      "confidence": 0.2801,
+      "percentage": "28.0%"
+    },
+    {
+      "class": "bell_pepper__healthy",
+      "confidence": 0.0957,
+      "percentage": "9.6%"
+    },
+    {
+      "class": "bell_pepper__bacterial_spot",
+      "confidence": 0.0832,
+      "percentage": "8.3%"
+    }
+  ],
+  "septoria-leaf-spot-septoria-lycopersici-on-tomat-331x205.webp": [
+    {
+      "class": "peach__bacterial_spot",
+      "confidence": 0.2631,
+      "percentage": "26.3%"
+    },
+    {
+      "class": "corn__common_rust",
+      "confidence": 0.2024,
+      "percentage": "20.2%"
+    },
+    {
+      "class": "bell_pepper__bacterial_spot",
+      "confidence": 0.0853,
+      "percentage": "8.5%"
+    }
+  ]
+}

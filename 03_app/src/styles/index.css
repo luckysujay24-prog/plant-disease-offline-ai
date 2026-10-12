@@ -1,0 +1,274 @@
+/* ==============================================================================
+   Farmer-Friendly Offline UI Stylesheet
+   Design Criteria: High Contrast, Big Touch Targets, Minimal Text, Plain CSS
+   ============================================================================== */
+
+:root {
+  --primary: #2e7d32;
+  --primary-dark: #1b5e20;
+  --primary-light: #e8f5e9;
+  --accent: #ff8f00;
+  --bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --text: #212121;
+  --text-muted: #616161;
+  --border: #e0e0e0;
+  --risk-low: #2e7d32;
+  --risk-med: #ef6c00;
+  --risk-high: #c62828;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.app-container {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card-bg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Header & Banner */
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 16px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.status-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #81c784;
+}
+
+.status-dot.offline {
+  background-color: #ffd54f;
+}
+
+/* Main Content Area */
+main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Big Button Components */
+.big-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 100%;
+  min-height: 72px;
+  padding: 16px 20px;
+  background-color: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  text-align: left;
+}
+
+.big-button:active {
+  transform: scale(0.98);
+}
+
+.big-button.primary {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary-dark);
+}
+
+.big-button-icon {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-button-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-button-subtitle {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.85;
+}
+
+/* Crop Grid */
+.crop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.crop-tile {
+  background-color: var(--card-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.crop-tile.selected {
+  border-color: var(--primary);
+  background-color: var(--primary-light);
+}
+
+.crop-icon {
+  font-size: 2.2rem;
+}
+
+/* Risk Badges */
+.risk-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: white;
+}
+
+.risk-badge.LOW {
+  background-color: var(--risk-low);
+}
+
+.risk-badge.MEDIUM {
+  background-color: var(--risk-med);
+}
+
+.risk-badge.HIGH {
+  background-color: var(--risk-high);
+}
+
+/* Card */
+.card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+/* Bottom Navigation */
+nav.bottom-nav {
+  position: sticky;
+  bottom: 0;
+  background: white;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  border: none;
+  background: none;
+  cursor: pointer;
+  min-width: 60px;
+}
+
+.nav-item.active {
+  color: var(--primary);
+}
+
+.nav-icon {
+  font-size: 1.3rem;
+}
+
+/* Tips Box */
+.tips-box {
+  background-color: #fff9c4;
+  border-left: 4px solid #fbc02d;
+  padding: 12px 14px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.tips-box ul {
+  padding-left: 18px;
+  margin-top: 6px;
+}
+
+/* Camera Preview */
+.camera-preview {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 2px dashed var(--border);
+}

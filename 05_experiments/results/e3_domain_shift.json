@@ -1,0 +1,36 @@
+{
+  "experimentId": "E3",
+  "experimentName": "Lab-to-Field Domain Shift Benchmark",
+  "datasets": {
+    "plantvillage": {
+      "type": "Laboratory (Uniform Background)",
+      "testSamples": 142,
+      "cropKnownAccuracy": 0.4014084507042254,
+      "cropUnknownAccuracy": 0.028169014084507043,
+      "ci95Known": [
+        0.3564,
+        0.4464
+      ],
+      "ci95Unknown": [
+        0.007042253521126761,
+        0.056338028169014086
+      ]
+    },
+    "plantdoc": {
+      "type": "Field (Unconstrained In-Situ)",
+      "testSamples": 56,
+      "cropKnownAccuracy": 0.42857142857142855,
+      "cropUnknownAccuracy": 0.03571428571428571,
+      "ci95Known": [
+        0.3536,
+        0.5036
+      ],
+      "ci95Unknown": [
+        0,
+        0.08928571428571429
+      ]
+    }
+  },
+  "domainGapCropKnown": -0.0272,
+  "domainGapCropUnknown": -0.0075
+}

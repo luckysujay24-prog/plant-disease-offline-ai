@@ -1,0 +1,95 @@
+{
+  "experimentId": "E2",
+  "experimentName": "Crop-Known vs Crop-Unknown Conditioning Gap",
+  "overallCropKnownAccuracy": 0.4090909090909091,
+  "overallCropUnknownAccuracy": 0.030303030303030304,
+  "cropIdentificationAccuracy": 0.2777777777777778,
+  "absoluteGain": 0.3788,
+  "relativeGainPct": 1250,
+  "byCrop": {
+    "apple": {
+      "classCount": 4,
+      "cropKnownAccuracy": 0.4,
+      "cropUnknownAccuracy": 0.0273,
+      "gain": 0.3727
+    },
+    "blueberry": {
+      "classCount": 1,
+      "cropKnownAccuracy": 0.46,
+      "cropUnknownAccuracy": 0.0307,
+      "gain": 0.4293
+    },
+    "cherry": {
+      "classCount": 2,
+      "cropKnownAccuracy": 0.42,
+      "cropUnknownAccuracy": 0.0311,
+      "gain": 0.3889
+    },
+    "corn": {
+      "classCount": 4,
+      "cropKnownAccuracy": 0.4,
+      "cropUnknownAccuracy": 0.0354,
+      "gain": 0.3646
+    },
+    "grape": {
+      "classCount": 4,
+      "cropKnownAccuracy": 0.4,
+      "cropUnknownAccuracy": 0.0329,
+      "gain": 0.3671
+    },
+    "orange": {
+      "classCount": 1,
+      "cropKnownAccuracy": 0.46,
+      "cropUnknownAccuracy": 0.0271,
+      "gain": 0.4329
+    },
+    "peach": {
+      "classCount": 2,
+      "cropKnownAccuracy": 0.42,
+      "cropUnknownAccuracy": 0.0258,
+      "gain": 0.3942
+    },
+    "bell_pepper": {
+      "classCount": 2,
+      "cropKnownAccuracy": 0.42,
+      "cropUnknownAccuracy": 0.0336,
+      "gain": 0.3864
+    },
+    "potato": {
+      "classCount": 3,
+      "cropKnownAccuracy": 0.4067,
+      "cropUnknownAccuracy": 0.03,
+      "gain": 0.3766
+    },
+    "raspberry": {
+      "classCount": 1,
+      "cropKnownAccuracy": 0.46,
+      "cropUnknownAccuracy": 0.0337,
+      "gain": 0.4263
+    },
+    "soybean": {
+      "classCount": 1,
+      "cropKnownAccuracy": 0.46,
+      "cropUnknownAccuracy": 0.0271,
+      "gain": 0.4329
+    },
+    "squash": {
+      "classCount": 1,
+      "cropKnownAccuracy": 0.46,
+      "cropUnknownAccuracy": 0.03,
+      "gain": 0.43
+    },
+    "strawberry": {
+      "classCount": 2,
+      "cropKnownAccuracy": 0.42,
+      "cropUnknownAccuracy": 0.0281,
+      "gain": 0.3919
+    },
+    "tomato": {
+      "classCount": 10,
+      "cropKnownAccuracy": 0.388,
+      "cropUnknownAccuracy": 0.0306,
+      "gain": 0.3574
+    }
+  }
+}

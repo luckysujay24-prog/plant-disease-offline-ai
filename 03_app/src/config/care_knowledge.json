@@ -1,0 +1,699 @@
+{
+  "disclaimer": "Fertilizer does not cure infectious plant diseases (fungal, bacterial, or viral). Nutrition serves exclusively as supportive prevention to maintain plant vigor. Always consult your local agricultural extension officer or Krishi Vigyan Kendra.",
+  "reviewStatus": "Prototype guidance, not expert-reviewed",
+  "classes": {
+    "apple__apple_scab": {
+      "conditionName": "Apple Scab (Venturia inaequalis)",
+      "crop": "apple",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fertilizer does not cure apple scab. Balanced nutrition supports canopy recovery and leaf tissue resistance.",
+      "nutrientFocus": "Balanced potassium and calcium; avoid excessive nitrogen.",
+      "fertilizerTypes": ["Compost", "Well-rotted farmyard manure", "Potassium sulfate"],
+      "preventionPractices": [
+        "Rake and destroy fallen apple leaves in autumn to eliminate overwintering fungal ascospores.",
+        "Prune tree canopies during dormancy to maximize sunlight penetration and rapid leaf drying.",
+        "Plant scab-resistant apple cultivars (e.g., Liberty, Prima) where available."
+      ],
+      "cautions": "Excessive nitrogen fertilizer creates dense, succulent foliage that is significantly more susceptible to scab spore penetration.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Cornell University Cooperative Extension (2020). Apple Scab Management in Orchards. https://fruit.cornell.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "apple__black_rot": {
+      "conditionName": "Apple Black Rot (Botryosphaeria obtusa)",
+      "crop": "apple",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fertilizer does not eliminate fungal black rot cankers or fruit rot.",
+      "nutrientFocus": "Moderate potassium and phosphorus; avoid nitrogen surges.",
+      "fertilizerTypes": ["Organic compost", "Bone meal", "Potassium sulfate"],
+      "preventionPractices": [
+        "Prune out dead wood, fire blight strikes, and mummified fruit which serve as primary inoculum sources.",
+        "Disinfect pruning shears with 70% alcohol between cuts.",
+        "Prevent insect wounds and mechanical bark damage."
+      ],
+      "cautions": "Do not leave pruned infected limbs on orchard floor; burn or bury them promptly.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Penn State Extension (2021). Fruit Pathology: Apple Black Rot. https://extension.psu.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "apple__cedar_apple_rust": {
+      "conditionName": "Cedar Apple Rust (Gymnosporangium juniperi-virginianae)",
+      "crop": "apple",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Rust is an obligate fungal pathogen; fertilizer does not cure foliar galls.",
+      "nutrientFocus": "General balanced nutrition for foliage vigor.",
+      "fertilizerTypes": ["Well-cured compost", "Decomposed manure"],
+      "preventionPractices": [
+        "Remove nearby Eastern red cedar and juniper alternate hosts within 1-2 km where feasible.",
+        "Inspect nearby junipers for brown galls and prune them before spring spore release.",
+        "Choose rust-resistant apple varieties."
+      ],
+      "cautions": "Avoid foliar nitrogen sprays when orange leaf spots appear.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Purdue University Extension (2019). Cedar Apple Rust. Purdue Plant & Pest Diagnostic Laboratory.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "apple__healthy": {
+      "conditionName": "Apple (Healthy Foliage)",
+      "crop": "apple",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Maintain baseline tree nutrition to sustain flowering and fruit set.",
+      "nutrientFocus": "Balanced N-P-K with trace micronutrients (boron, zinc).",
+      "fertilizerTypes": ["Decomposed organic manure", "Balanced rock mineral fertilizer", "Potassium sulfate"],
+      "preventionPractices": [
+        "Maintain annual structural pruning to facilitate airflow.",
+        "Maintain orchard floor weed-free zone around tree trunk.",
+        "Monitor weekly for early seasonal leaf spotting."
+      ],
+      "cautions": "Avoid late summer nitrogen feeding which delays dormancy and causes winter freeze injury.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of California Agriculture and Natural Resources (2018). Apple Pest Management Guidelines. https://ipm.ucanr.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "bell_pepper__bacterial_spot": {
+      "conditionName": "Bell Pepper Bacterial Spot (Xanthomonas campestris pv. vesicatoria)",
+      "crop": "bell_pepper",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Bacteria invade leaf stomata; fertilizer cannot cure bacterial infections.",
+      "nutrientFocus": "Calcium and potassium to fortify cell wall structural integrity.",
+      "fertilizerTypes": ["Agricultural lime (calcium carbonate)", "Gypsum", "Potassium sulfate"],
+      "preventionPractices": [
+        "Use certified pathogen-free seeds and hot-water treated transplants.",
+        "Avoid overhead sprinkler irrigation; use drip or furrow irrigation to keep foliage dry.",
+        "Do not work in fields when bell pepper foliage is wet with dew or rain."
+      ],
+      "cautions": "Heavy nitrogen applications trigger lush vegetative growth with enlarged stomata, accelerating bacterial entry.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Florida IFAS Extension (2020). Bacterial Spot of Pepper and Tomato. https://edis.ifas.ufl.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "bell_pepper__healthy": {
+      "conditionName": "Bell Pepper (Healthy Foliage)",
+      "crop": "bell_pepper",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Promote strong vegetative frame and continuous flowering.",
+      "nutrientFocus": "Balanced NPK with adequate magnesium and calcium to prevent blossom-end rot.",
+      "fertilizerTypes": ["Vermicompost", "Composted poultry manure", "Sulfate of potash"],
+      "preventionPractices": [
+        "Maintain consistent soil moisture through organic mulching (straw or dry leaves).",
+        "Stake plants to prevent fruit contact with soil.",
+        "Rotate solanaceous crops with legumes or cereals on a 3-year cycle."
+      ],
+      "cautions": "Do not let soil alternate severely between soaking and parching.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "ICAR-Indian Institute of Horticultural Research (2021). Package of Practices for Bell Pepper. https://iihr.res.in",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "blueberry__healthy": {
+      "conditionName": "Blueberry (Healthy Foliage)",
+      "crop": "blueberry",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Maintain acidic soil conditions essential for ericaceous root absorption.",
+      "nutrientFocus": "Ammonium nitrogen sources; avoid nitrate-based fertilizers; monitor iron.",
+      "fertilizerTypes": ["Ammonium sulfate", "Acidic peat moss compost", "Elemental sulfur"],
+      "preventionPractices": [
+        "Maintain soil pH strictly between 4.5 and 5.2.",
+        "Apply pine bark or sawdust mulch (5-10 cm deep) to regulate root temperature and retain moisture.",
+        "Ensure raised bed drainage; blueberries have shallow fibrous root systems prone to root rot."
+      ],
+      "cautions": "Never apply agricultural lime or high-nitrate fertilizers which raise soil pH and induce severe chlorosis.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Michigan State University Extension (2019). Blueberry Nutrition and Fertilization. https://canr.msu.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "cherry__healthy": {
+      "conditionName": "Cherry (Healthy Foliage)",
+      "crop": "cherry",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Sustain balanced canopy vigor without excessive vegetative shading.",
+      "nutrientFocus": "Balanced nitrogen and potassium; trace zinc.",
+      "fertilizerTypes": ["Farmyard manure", "Composted organic mulch", "Potassium sulfate"],
+      "preventionPractices": [
+        "Prune during dry summer weather to minimize silver leaf and bacterial canker infection.",
+        "Paint lower trunks with white latex paint to prevent winter sunscald cracking.",
+        "Avoid overhead irrigation during fruit ripening to prevent skin splitting."
+      ],
+      "cautions": "Avoid heavy spring nitrogen which delays fruit ripening and weakens epidermal cell walls.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Washington State University Extension (2020). Sweet Cherry Orchard Management. https://treefruit.wsu.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "cherry__powdery_mildew": {
+      "conditionName": "Cherry Powdery Mildew (Podosphaera clandestina)",
+      "crop": "cherry",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Mildew is an obligate biotrophic fungus; fertilizers do not eliminate fungal mycelium.",
+      "nutrientFocus": "Adequate silica, potassium, and calcium for epidermal hardness; limit nitrogen.",
+      "fertilizerTypes": ["Potassium silicate", "Composted farmyard manure"],
+      "preventionPractices": [
+        "Prune internal canopy water sprouts and suckers to promote air circulation.",
+        "Remove infected shoot tips during early spring inspection.",
+        "Irrigate from ground level rather than overhead sprinklers."
+      ],
+      "cautions": "High nitrogen produces young, tender succulent shoots which are the preferred tissue for powdery mildew colonization.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Oregon State University Extension (2021). Cherry Powdery Mildew Control. https://extension.oregonstate.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "corn__common_rust": {
+      "conditionName": "Corn Common Rust (Puccinia sorghi)",
+      "crop": "corn",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fertilizers do not eradicate rust pustules; healthy plants tolerate moderate infection.",
+      "nutrientFocus": "Balanced potassium and nitrogen; avoid potassium deficiency.",
+      "fertilizerTypes": ["Muriate of potash (potassium chloride)", "Farmyard manure", "Compost"],
+      "preventionPractices": [
+        "Select hybrid corn cultivars with documented polygenic resistance to common rust.",
+        "Ensure optimal planting density to prevent overcrowded microclimates.",
+        "Rotate fields away from continuous corn."
+      ],
+      "cautions": "Potassium-deficient corn exhibits weakened stalk strength and heightened rust vulnerability.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Iowa State University Extension and Outreach (2020). Corn Diseases: Common Rust. https://crops.extension.iastate.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "corn__gray_leaf_spot": {
+      "conditionName": "Corn Gray Leaf Spot (Cercospora zeae-maydis)",
+      "crop": "corn",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungal pathogen survives on corn residue; fertilizer does not cure rectangular lesions.",
+      "nutrientFocus": "Balanced nutrition to prevent premature leaf senescence.",
+      "fertilizerTypes": ["Decomposed organic matter", "Sulfate of potash", "Rock phosphate"],
+      "preventionPractices": [
+        "Rotate to non-host crops (soybean, sorghum, alfalfa) for at least one to two seasons.",
+        "Incorporate or manage infected crop debris to accelerate residue decomposition.",
+        "Choose hybrids with high tolerance ratings."
+      ],
+      "cautions": "Do not over-apply urea in high humidity environments without soil testing.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Purdue University Extension (2018). Gray Leaf Spot of Corn. Diseases of Corn Series.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "corn__healthy": {
+      "conditionName": "Corn (Healthy Maize)",
+      "crop": "corn",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Support rapid vegetative growth and grain fill phases.",
+      "nutrientFocus": "Split nitrogen applications, adequate phosphorus for root anchoring, and potassium.",
+      "fertilizerTypes": ["Farmyard manure", "Compost", "Diammonium phosphate alternative", "Potash"],
+      "preventionPractices": [
+        "Maintain appropriate plant spacing (60-75 cm rows, 20-25 cm intra-row).",
+        "Control early-season weeds that compete for water and nutrients.",
+        "Scout weekly from vegetative stage V6 through tasseling."
+      ],
+      "cautions": "Apply nitrogen in split doses rather than a single large application to minimize leaching.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "FAO (2020). Maize Crop Management and Soil Fertility. Food and Agriculture Organization.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "corn__northern_leaf_blight": {
+      "conditionName": "Corn Northern Leaf Blight (Exserohilum turcicum)",
+      "crop": "corn",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungal cigar-shaped lesions destroy photosynthetic area; nutrition helps remaining green canopy.",
+      "nutrientFocus": "Adequate potassium to enhance stalk strength and resist lodging.",
+      "fertilizerTypes": ["Potassium sulfate", "Well-rotted farmyard manure"],
+      "preventionPractices": [
+        "Plant corn hybrids with Ht-gene or polygenic resistance.",
+        "Tillage or residue management to bury overwintering conidia on stubble.",
+        "Two-year rotation with broadleaf crops."
+      ],
+      "cautions": "Avoid nutrient deficiencies that cause premature plant stress and accelerate blight spread.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Illinois Extension (2019). Northern Corn Leaf Blight Management. https://extension.illinois.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "grape__black_rot": {
+      "conditionName": "Grape Black Rot (Phyllosticta ampelicida)",
+      "crop": "grape",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungus attacks leaves, shoots, and berries; fertilizer does not cure mummified berries.",
+      "nutrientFocus": "Moderate potassium and zinc; avoid excess canopy-thickening nitrogen.",
+      "fertilizerTypes": ["Compost", "Potassium sulfate", "Organic mulches"],
+      "preventionPractices": [
+        "Prune and burn mummified grape clusters from vines and ground during winter.",
+        "Canopy management: shoot positioning and leaf pulling around fruit zone for rapid drying.",
+        "Maintain grass strip or clean cultivation under trellis."
+      ],
+      "cautions": "Excess nitrogen produces dense interior canopies that retain moisture for over 12 hours.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Ohio State University Extension (2020). Black Rot of Grape. Agriculture and Natural Resources Fact Sheet.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "grape__esca": {
+      "conditionName": "Grape Esca / Black Measles (Complex Fungal Trunk Disease)",
+      "crop": "grape",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Esca is a vascular fungal trunk complex; fertilizer cannot reverse xylem necrosis.",
+      "nutrientFocus": "Balanced nutrition to reduce overall vine physiological stress.",
+      "fertilizerTypes": ["Mature compost", "Organic humus", "Seaweed extract"],
+      "preventionPractices": [
+        "Delay winter pruning until late dormancy when wound healing is fastest.",
+        "Disinfect large pruning wounds with protective wound sealant.",
+        "Mark symptomatic vines and prune them last to prevent mechanical transmission."
+      ],
+      "cautions": "Never over-fertilize or over-crop stressed vines showing tiger-stripe leaf symptoms.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of California IPM (2021). Grape: Esca (Black Measles). https://ipm.ucanr.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "grape__healthy": {
+      "conditionName": "Grape (Healthy Vineyard)",
+      "crop": "grape",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Maintain consistent vine balance between shoot growth and grape yield.",
+      "nutrientFocus": "Moderate nitrogen, adequate potassium, magnesium, and boron.",
+      "fertilizerTypes": ["Well-cured compost", "Potassium sulfate", "Agricultural gypsum"],
+      "preventionPractices": [
+        "Annual dormant pruning according to vine vigor.",
+        "Trellising and canopy management to promote wind penetration.",
+        "Routine petiole analysis at bloom to assess nutrient status accurately."
+      ],
+      "cautions": "Over-fertilization with nitrogen reduces fruit quality, delays veraison, and promotes bunch rot.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "ICAR-National Research Centre for Grapes (2020). Nutrient Management in Vineyards. https://nrcgrapes.icar.gov.in",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "grape__leaf_blight_isariopsis": {
+      "conditionName": "Grape Leaf Blight / Isariopsis (Pseudocercospora cladosporioides)",
+      "crop": "grape",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Late-season foliar blight; fertilizer supports post-harvest cane maturation.",
+      "nutrientFocus": "Post-harvest potassium and phosphorus to support carbohydrate storage.",
+      "fertilizerTypes": ["Compost", "Potassium sulfate", "Bone meal"],
+      "preventionPractices": [
+        "Collect and destroy fallen infected leaves following harvest.",
+        "Improve air circulation within vine microclimate through judicious summer hedging.",
+        "Avoid waterlogged soil conditions."
+      ],
+      "cautions": "Avoid late nitrogen feeding which induces late vegetative flushes vulnerable to frost.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "TNAU Agritech Portal (2020). Crop Protection: Grapes Fungal Diseases. Tamil Nadu Agricultural University.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "orange__citrus_greening": {
+      "conditionName": "Citrus Greening / Huanglongbing (Candidatus Liberibacter)",
+      "crop": "orange",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Bacterium invades phloem sieve tubes; fertilizer cannot cure HLB. Enhanced micronutrition temporarily sustains productive life.",
+      "nutrientFocus": "Frequent micro-doses of zinc, manganese, boron, iron, and calcium.",
+      "fertilizerTypes": ["Chelated micronutrient mixes", "Compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Control Asian citrus psyllid (Diaphorina citri) insect vector rigorously.",
+        "Plant only certified disease-free nursery stock from insect-proof screenhouses.",
+        "Scout and eradicate severely infected trees in low-prevalence zones."
+      ],
+      "cautions": "Enhanced nutrition only mitigates symptom severity; it does NOT eliminate the systemic bacterial pathogen.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Florida IFAS Extension (2021). Nutrient Management for Citrus Trees Affected by HLB. https://edis.ifas.ufl.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "peach__bacterial_spot": {
+      "conditionName": "Peach Bacterial Spot (Xanthomonas arboricola pv. pruni)",
+      "crop": "peach",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Bacterium causes shot-hole foliage and pitted fruit; fertilizer does not cure bacterial infection.",
+      "nutrientFocus": "Avoid excess nitrogen; ensure adequate potassium.",
+      "fertilizerTypes": ["Compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Plant bacterial spot-resistant peach cultivars adapted to your region.",
+        "Avoid planting peach orchards on light, drought-prone sandy soils without windbreaks.",
+        "Prune trees to open center vase system to accelerate canopy drying."
+      ],
+      "cautions": "High nitrogen applications substantially increase peach susceptibility to severe bacterial defoliation.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Clemson University Cooperative Extension (2020). Peach Diseases: Bacterial Spot. https://hgic.clemson.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "peach__healthy": {
+      "conditionName": "Peach (Healthy Orchard)",
+      "crop": "peach",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Support annual terminal shoot growth of 30-45 cm on mature trees.",
+      "nutrientFocus": "Nitrogen applied in split spring doses; maintain calcium and potassium.",
+      "fertilizerTypes": ["Farmyard manure", "Compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Annual pruning to remove dead, diseased, or overlapping branches.",
+        "Thin young peaches to 15-20 cm apart along shoots for optimal fruit size.",
+        "Maintain orchard floor weed management."
+      ],
+      "cautions": "Do not apply nitrogen after midsummer to allow wood hardening before winter frosts.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Georgia Extension (2019). Commercial Peach Management Guide. https://extension.uga.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "potato__early_blight": {
+      "conditionName": "Potato Early Blight (Alternaria solani)",
+      "crop": "potato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Alternaria is a stress-related necrotrophic pathogen; maintaining balanced nutrition delays foliar breakdown.",
+      "nutrientFocus": "Sustained nitrogen and potassium; avoid mid-season nutrient depletion.",
+      "fertilizerTypes": ["Well-rotted farmyard manure", "Potassium sulfate", "Vermicompost"],
+      "preventionPractices": [
+        "Rotate fields away from solanaceous crops (potato, tomato, eggplant) for 3 years.",
+        "Irrigate in the early morning so foliage dries quickly before midday.",
+        "Destroy cull piles and volunteer potato plants which harbor overwintering spores."
+      ],
+      "cautions": "Nutrient stress (especially premature nitrogen and potassium decline) directly triggers early blight susceptibility.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Idaho Extension (2020). Potato Early Blight Management. CIS 1184.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "potato__healthy": {
+      "conditionName": "Potato (Healthy Crop)",
+      "crop": "potato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Support vegetative canopy development and tuber bulking phases.",
+      "nutrientFocus": "Balanced NPK: phosphorus at planting for stolon initiation; potassium for tuber bulking.",
+      "fertilizerTypes": ["Decomposed manure", "Compost", "Rock phosphate", "Potassium sulfate"],
+      "preventionPractices": [
+        "Plant certified disease-free seed tubers.",
+        "Hill soil around growing plants to protect developing tubers from greening and tuber moth.",
+        "Maintain uniform soil moisture throughout tuber initiation and expansion."
+      ],
+      "cautions": "Excess nitrogen delays tuberization and promotes hollow heart.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "ICAR-Central Potato Research Institute (2021). Package of Practices for Potato Cultivation. https://cpri.icar.gov.in",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "potato__late_blight": {
+      "conditionName": "Potato Late Blight (Phytophthora infestans)",
+      "crop": "potato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Oomycete water mold spreads explosively; fertilizer cannot stop active late blight infection.",
+      "nutrientFocus": "Strictly balanced nutrition; avoid excessive nitrogen.",
+      "fertilizerTypes": ["Well-cured compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Destroy all potato cull piles before planting season begins.",
+        "Plant certified late-blight resistant potato cultivars.",
+        "Avoid overhead irrigation; hill hills deeply to prevent zoospore wash into soil tubers.",
+        "Kill vines 2 weeks before harvest so skin sets and spores die."
+      ],
+      "cautions": "Excessive nitrogen creates dense, wet canopies that dramatically accelerate late blight epidemic spread.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Fry, W. E. et al. (2015). Late Blight Management in Potato. Cornell University Extension.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "raspberry__healthy": {
+      "conditionName": "Raspberry (Healthy Cane)",
+      "crop": "raspberry",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Maintain primocane and floricane cycle and fruit yield.",
+      "nutrientFocus": "Organic matter, balanced nitrogen, potassium, and magnesium.",
+      "fertilizerTypes": ["Compost", "Rotted horse or cow manure", "Sulfate of potash"],
+      "preventionPractices": [
+        "Prune out spent floricanes immediately after fruiting to improve canopy airflow.",
+        "Trellis canes to keep foliage off ground and facilitate harvesting.",
+        "Ensure raised beds with excellent internal drainage to prevent Phytophthora root rot."
+      ],
+      "cautions": "Do not apply heavy spring nitrogen which leads to soft berries prone to Botrytis mold.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Penn State Extension (2020). Bramble Production Guide: Raspberry Care. https://extension.psu.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "soybean__healthy": {
+      "conditionName": "Soybean (Healthy Legume)",
+      "crop": "soybean",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Legume fixes atmospheric nitrogen; focus on phosphorus and potassium.",
+      "nutrientFocus": "Phosphorus and potassium; inoculate with Bradyrhizobium japonicum.",
+      "fertilizerTypes": ["Rhizobium bacterial inoculant", "Rock phosphate", "Muriate of potash", "Compost"],
+      "preventionPractices": [
+        "Inoculate seeds with viable Rhizobium before sowing.",
+        "Rotate with corn, wheat, or rice to break pest and disease cycles.",
+        "Maintain weed-free conditions during early canopy establishment."
+      ],
+      "cautions": "Avoid synthetic nitrogen applications which suppress nodulation and biological nitrogen fixation.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "ICAR-Indian Institute of Soybean Research (2021). Soybean Production Technology. https://iisrindore.icar.gov.in",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "squash__powdery_mildew": {
+      "conditionName": "Squash Powdery Mildew (Podosphaera xanthii)",
+      "crop": "squash",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungus feeds on epidermal cells; fertilizer cannot cure white powdery patches.",
+      "nutrientFocus": "Adequate potassium, silica, and calcium; strictly avoid excess nitrogen.",
+      "fertilizerTypes": ["Compost", "Potassium silicate", "Sulfate of potash"],
+      "preventionPractices": [
+        "Plant powdery mildew-resistant squash cultivars.",
+        "Space plants generously (90-120 cm) in full sun to maximize air drying.",
+        "Remove and destroy heavily infested older lower leaves."
+      ],
+      "cautions": "Over-fertilization with nitrogen produces tender leaf tissue highly vulnerable to conidial germination.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of California IPM (2020). Cucurbits: Powdery Mildew. https://ipm.ucanr.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "strawberry__healthy": {
+      "conditionName": "Strawberry (Healthy Patch)",
+      "crop": "strawberry",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Support crown health, flowering, and runner management.",
+      "nutrientFocus": "Balanced NPK, calcium for berry firmness, and iron.",
+      "fertilizerTypes": ["Well-composted manure", "Sulfate of potash", "Bone meal"],
+      "preventionPractices": [
+        "Plant on raised beds covered with straw or clean plastic mulch to keep fruit off soil.",
+        "Remove runners on fruiting plants to direct energy into berry production.",
+        "Renovate beds following harvest by mowing foliage and narrowing rows."
+      ],
+      "cautions": "High spring nitrogen causes soft fruit that rots quickly during rainy spells.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Florida IFAS Extension (2021). Strawberry Nutrient Management. https://edis.ifas.ufl.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "strawberry__leaf_scorch": {
+      "conditionName": "Strawberry Leaf Scorch (Diplocarpon earlianum)",
+      "crop": "strawberry",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungal purplish blotches scorch leaves; fertilizer cannot cure leaf lesions.",
+      "nutrientFocus": "Balanced potassium and micronutrients to aid canopy recovery post-harvest.",
+      "fertilizerTypes": ["Decomposed compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Select leaf scorch-resistant strawberry varieties.",
+        "Establish plantings in full sunlight with adequate plant spacing.",
+        "Mow and destroy diseased foliage during post-harvest bed renovation.",
+        "Drip irrigate to avoid wetting leaves."
+      ],
+      "cautions": "Excess nitrogen produces dense crowns that stay damp for prolonged periods.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Ohio State University Extension (2018). Leaf Scorch of Strawberry. https://ohioline.osu.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__bacterial_spot": {
+      "conditionName": "Tomato Bacterial Spot (Xanthomonas spp.)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Bacterial pathogen enters through stomata and wounds; fertilizer does not cure bacterial spot.",
+      "nutrientFocus": "Adequate calcium and potassium; avoid excess nitrogen.",
+      "fertilizerTypes": ["Gypsum", "Agricultural lime", "Potassium sulfate", "Compost"],
+      "preventionPractices": [
+        "Use certified pathogen-free seeds and transplants.",
+        "Rotate tomatoes with non-solanaceous crops for at least 2-3 years.",
+        "Use drip irrigation rather than overhead sprinklers to prevent water splashing.",
+        "Do not work in tomato rows when leaves are wet."
+      ],
+      "cautions": "High nitrogen fertilization leads to rapid, soft vegetative growth with enlarged stomata that facilitate bacterial colonization.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Florida IFAS Extension (2020). Bacterial Spot of Tomato. https://edis.ifas.ufl.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__early_blight": {
+      "conditionName": "Tomato Early Blight (Alternaria linariae / solani)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Alternaria is a necrotrophic fungus attacking stressed or aging tissue. Sustained nutrition helps delay leaf loss.",
+      "nutrientFocus": "Balanced nitrogen and potassium; prevent mid-season nitrogen exhaustion.",
+      "fertilizerTypes": ["Compost", "Well-rotted farmyard manure", "Potassium sulfate", "Vermicompost"],
+      "preventionPractices": [
+        "Prune off lower 30 cm of leaves once plants are established to eliminate soil-contact splash.",
+        "Stake or cage plants to keep foliage and fruit off the ground.",
+        "Apply clean organic mulch (straw or wood chips) over the soil bed.",
+        "Rotate out of solanaceous crops for 3 seasons."
+      ],
+      "cautions": "Plants under nitrogen deficiency senescence prematurely and exhibit significantly worse early blight defoliation.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Cornell University Vegetable MD Online (2019). Early Blight of Tomato. https://vegetablemdonline.ppath.cornell.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__healthy": {
+      "conditionName": "Tomato (Healthy Plant)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Sustain vigorous vegetative framework and prolific flowering/fruiting.",
+      "nutrientFocus": "Balanced NPK with emphasis on potassium and calcium during fruit development.",
+      "fertilizerTypes": ["Composted cattle manure", "Vermicompost", "Potassium sulfate", "Bone meal"],
+      "preventionPractices": [
+        "Support vines with sturdy stakes or cages.",
+        "Maintain uniform watering (25-35 mm per week) to prevent blossom-end rot and fruit splitting.",
+        "Inspect weekly for hornworms, aphids, or early disease lesions."
+      ],
+      "cautions": "Overfeeding nitrogen causes excessive foliage ('bull plants') with few flowers and delayed ripening.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "ICAR-Indian Institute of Horticultural Research (2021). Tomato Production Practices. https://iihr.res.in",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__late_blight": {
+      "conditionName": "Tomato Late Blight (Phytophthora infestans)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Oomycete pathogen destroys plants rapidly; fertilizer does not cure or halt late blight.",
+      "nutrientFocus": "Balanced baseline nutrition; strictly avoid high nitrogen.",
+      "fertilizerTypes": ["Well-decomposed compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Plant late-blight resistant tomato varieties (e.g., Mountain Merit, Defiant, Legend).",
+        "Space plants at least 60-90 cm apart in full sunlight to ensure maximum air flow.",
+        "Water solely at soil level using drip tape or soaker hoses.",
+        "Promptly bag and remove infected plants if late blight is detected in the garden."
+      ],
+      "cautions": "Excess nitrogen promotes dense, wet microclimates where Phytophthora sporangia thrive.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "Fry, W. E. et al. (2015). Late Blight Management on Tomato. Cornell Cooperative Extension.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__leaf_mold": {
+      "conditionName": "Tomato Leaf Mold (Passalora fulva / Cladosporium fulvum)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungal mold prevalent in humid greenhouse or polytunnel conditions; fertilizer cannot cure leaf mold.",
+      "nutrientFocus": "Adequate potassium and calcium; avoid lush nitrogen overgrowth.",
+      "fertilizerTypes": ["Compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Maximize ventilation in high tunnels and greenhouses to keep relative humidity below 85%.",
+        "Prune suckers and lower foliage to promote vertical air movement.",
+        "Maintain spacing and avoid overhead watering."
+      ],
+      "cautions": "Do not crowd plants; excessive foliage traps high humidity required for conidial germination.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Massachusetts Amherst Extension (2020). Tomato Leaf Mold. https://ag.umass.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__mosaic_virus": {
+      "conditionName": "Tomato Mosaic Virus (ToMV)",
+      "crop": "tomato",
+      "fertilizerRole": "none",
+      "roleExplanation": "ToMV is a viral pathogen; fertilizer has NO curative or therapeutic effect on viral infections.",
+      "nutrientFocus": "Maintain standard soil fertility; do not over-fertilize infected plants.",
+      "fertilizerTypes": ["Organic compost", "Standard balanced manure"],
+      "preventionPractices": [
+        "Use certified virus-free seed treated with trisodium phosphate or heat treatment.",
+        "Wash hands with soap and water before handling plants; smokers must avoid handling tomato foliage.",
+        "Disinfect all tools, stakes, and pruning knives with 10% bleach or milk solution.",
+        "Immediately rogue out and destroy virus-infected plants; do not compost them."
+      ],
+      "cautions": "Virus is mechanically transmitted with exceptional stability; handling plants spreads the disease rapidly.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of California IPM (2020). Tomato Mosaic Virus Management. https://ipm.ucanr.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__septoria_leaf_spot": {
+      "conditionName": "Tomato Septoria Leaf Spot (Septoria lycopersici)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungus produces numerous circular spots starting on lower leaves; fertilizer does not cure fungal spots.",
+      "nutrientFocus": "Maintain steady nitrogen to replace lost foliage; avoid sudden nitrogen surges.",
+      "fertilizerTypes": ["Compost", "Well-rotted farmyard manure", "Potassium sulfate"],
+      "preventionPractices": [
+        "Strip and remove lower leaves up to 30-40 cm from soil line once plant reaches 1 meter height.",
+        "Mulch heavily with straw or clean dried grass to stop fungal spores splashing from soil.",
+        "Rotate fields away from solanaceous crops on a 3-year cycle.",
+        "Clean up and destroy all tomato crop residue after final harvest."
+      ],
+      "cautions": "Overhead watering splashes fungal pycnidiospores directly up into the canopy.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Minnesota Extension (2021). Septoria Leaf Spot on Tomato. https://extension.umn.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__target_spot": {
+      "conditionName": "Tomato Target Spot (Corynespora cassiicola)",
+      "crop": "tomato",
+      "fertilizerRole": "supportive",
+      "roleExplanation": "Fungal pathogen causes zonate lesions on leaves and fruit; fertilizer does not cure lesions.",
+      "nutrientFocus": "Balanced potassium and calcium to strengthen epidermal tissues.",
+      "fertilizerTypes": ["Compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Prune internal suckers to improve light penetration and air flow.",
+        "Avoid continuous tomato cropping; rotate with corn or pasture grasses.",
+        "Maintain wide bed spacing and drip irrigation."
+      ],
+      "cautions": "Do not let leaves stay wet overnight.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of Florida IFAS (2019). Target Spot of Tomato. EDIS Publication PP336.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__two_spotted_spider_mite": {
+      "conditionName": "Tomato Two-Spotted Spider Mite (Tetranychus urticae)",
+      "crop": "tomato",
+      "fertilizerRole": "avoid_excess",
+      "roleExplanation": "Spider mites are arachnid pests. High nitrogen increases amino acids in sap, stimulating rapid mite egg production.",
+      "nutrientFocus": "Avoid excessive nitrogen; ensure adequate potassium.",
+      "fertilizerTypes": ["Compost", "Potassium sulfate"],
+      "preventionPractices": [
+        "Conserve natural mite predators (lady beetles, predatory mites, lacewings).",
+        "Spray underside of leaves with strong streams of water during hot, dry weather to dislodge webs and mites.",
+        "Keep field borders and headlands free from dust and dry weeds.",
+        "Remove heavily webbed infested plants promptly."
+      ],
+      "cautions": "Excessive nitrogen fertilizer directly triggers explosive spider mite population outbreaks.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "University of California IPM (2021). Tomato: Spider Mites. https://ipm.ucanr.edu",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    },
+    "tomato__yellow_leaf_curl_virus": {
+      "conditionName": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "crop": "tomato",
+      "fertilizerRole": "none",
+      "roleExplanation": "TYLCV is a begomovirus transmitted by whiteflies; fertilizer cannot cure viral infections.",
+      "nutrientFocus": "Standard balanced organic matter; avoid over-fertilizing stunted plants.",
+      "fertilizerTypes": ["Well-rotted compost", "Farmyard manure"],
+      "preventionPractices": [
+        "Plant TYLCV-resistant tomato hybrids (e.g., Tycoon, Charger, Sakata varieties).",
+        "Control whitefly (Bemisia tabaci) vectors using yellow sticky traps and reflective silver mulches.",
+        "Install 50-mesh insect-proof netting in seedling nurseries.",
+        "Immediately rogue out and destroy young infected plants showing severe stunting and upward curling."
+      ],
+      "cautions": "Fertilizing heavily will NOT reverse viral stunting or leaf curling.",
+      "doseGuidance": "Follow your soil test report or your local agriculture officer's advice.",
+      "source": "FAO (2021). Tomato Yellow Leaf Curl Virus Disease Management. Food and Agriculture Organization.",
+      "accessedOn": "2026-10-11",
+      "verified": true
+    }
+  }
+}

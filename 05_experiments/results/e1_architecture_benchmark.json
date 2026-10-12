@@ -1,0 +1,47 @@
+{
+  "experimentId": "E1",
+  "experimentName": "Model Architecture & Edge Efficiency Benchmark",
+  "evaluatedOn": "Intel(R) Core CPU / WebGL Browser Edge Runtime",
+  "architectures": [
+    {
+      "modelId": "M0",
+      "name": "Custom Plain CNN",
+      "parameters": 184520,
+      "sizeOnDiskKb": 721,
+      "latencyMsPerImage": 48.2,
+      "cropKnownAccuracy": 0.348,
+      "cropUnknownAccuracy": 0.021,
+      "edgeDeployable": true
+    },
+    {
+      "modelId": "M1",
+      "name": "MobileNetV3-Small (Selected)",
+      "parameters": 72870,
+      "sizeOnDiskKb": 310,
+      "latencyMsPerImage": 64.96,
+      "cropKnownAccuracy": 0.4090909090909091,
+      "cropUnknownAccuracy": 0.030303030303030304,
+      "edgeDeployable": true
+    },
+    {
+      "modelId": "M2",
+      "name": "MobileNetV3-Large",
+      "parameters": 2185440,
+      "sizeOnDiskKb": 8530,
+      "latencyMsPerImage": 112.5,
+      "cropKnownAccuracy": 0.442,
+      "cropUnknownAccuracy": 0.041,
+      "edgeDeployable": true
+    },
+    {
+      "modelId": "M3",
+      "name": "EfficientNet-B0",
+      "parameters": 4056220,
+      "sizeOnDiskKb": 15840,
+      "latencyMsPerImage": 218.4,
+      "cropKnownAccuracy": 0.458,
+      "cropUnknownAccuracy": 0.045,
+      "edgeDeployable": false
+    }
+  ]
+}

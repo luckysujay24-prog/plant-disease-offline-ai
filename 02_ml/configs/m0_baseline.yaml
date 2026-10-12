@@ -1,0 +1,11 @@
+# M0: Small Custom CNN Baseline Configuration
+experiment_id: "M0_custom_cnn"
+model_architecture: "custom_cnn"
+input_shape: [224, 224, 3]
+batch_size: 16
+epochs: 10
+learning_rate: 0.001
+optimizer: "adam"
+label_smoothing: 0.05
+seeds: [42, 123, 999]
+description: "Lightweight convolutional baseline"

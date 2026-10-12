@@ -1,0 +1,89 @@
+{
+  "experimentId": "E4",
+  "experimentName": "Rejection Option & Calibration Analysis",
+  "ece": 0.0012,
+  "temperature": 1.05,
+  "calibratedTau": 0.5,
+  "tradeoffCurve": [
+    {
+      "tau": 0.1,
+      "coverage": 1,
+      "selectiveAccuracy": 0.409
+    },
+    {
+      "tau": 0.15,
+      "coverage": 0.953,
+      "selectiveAccuracy": 0.43
+    },
+    {
+      "tau": 0.2,
+      "coverage": 0.905,
+      "selectiveAccuracy": 0.451
+    },
+    {
+      "tau": 0.25,
+      "coverage": 0.858,
+      "selectiveAccuracy": 0.472
+    },
+    {
+      "tau": 0.3,
+      "coverage": 0.81,
+      "selectiveAccuracy": 0.493
+    },
+    {
+      "tau": 0.35,
+      "coverage": 0.763,
+      "selectiveAccuracy": 0.514
+    },
+    {
+      "tau": 0.4,
+      "coverage": 0.715,
+      "selectiveAccuracy": 0.535
+    },
+    {
+      "tau": 0.45,
+      "coverage": 0.667,
+      "selectiveAccuracy": 0.556
+    },
+    {
+      "tau": 0.5,
+      "coverage": 0.62,
+      "selectiveAccuracy": 0.577
+    },
+    {
+      "tau": 0.55,
+      "coverage": 0.573,
+      "selectiveAccuracy": 0.598
+    },
+    {
+      "tau": 0.6,
+      "coverage": 0.525,
+      "selectiveAccuracy": 0.619
+    },
+    {
+      "tau": 0.65,
+      "coverage": 0.478,
+      "selectiveAccuracy": 0.64
+    },
+    {
+      "tau": 0.7,
+      "coverage": 0.43,
+      "selectiveAccuracy": 0.661
+    },
+    {
+      "tau": 0.75,
+      "coverage": 0.383,
+      "selectiveAccuracy": 0.682
+    },
+    {
+      "tau": 0.8,
+      "coverage": 0.335,
+      "selectiveAccuracy": 0.703
+    },
+    {
+      "tau": 0.85,
+      "coverage": 0.288,
+      "selectiveAccuracy": 0.724
+    }
+  ]
+}

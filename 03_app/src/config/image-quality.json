@@ -1,0 +1,23 @@
+{
+  "experimentId": "E8",
+  "calibratedAt": "2026-10-09T22:15:00Z",
+  "limits": {
+    "maxPixels": 50000000,
+    "maxDimensionPx": 8192,
+    "maxSizeBytes": 35000000
+  },
+  "thresholds": {
+    "blurThresholdLaplacian": 12.5,
+    "minLuminanceDark": 0.18,
+    "maxLuminanceOverexposed": 0.88,
+    "minVegetationIndexExG": 0.04
+  },
+  "messages": {
+    "blurWarning": "The photo looks slightly blurry. A clearer focus will improve accuracy.",
+    "darkWarning": "The photo looks dark. A brighter photo in daylight may give a better result.",
+    "overexposedWarning": "The photo is very bright or reflective. Avoid direct harsh sunlight.",
+    "notPlantLeaf": "I can't see a plant leaf in this photo. Please focus closely on a leaf with symptoms.",
+    "oversized": "This photo is too large for memory limits. Please choose a photo under 48 MP.",
+    "unsupportedFormat": "This photo type isn't supported on this phone. Please take a new photo or choose a JPG or PNG."
+  }
+}

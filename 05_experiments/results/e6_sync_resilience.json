@@ -1,0 +1,39 @@
+{
+  "experimentId": "E6",
+  "experimentName": "Network Resilience, Idempotency & Sync Reliability",
+  "totalScansTested": 100,
+  "dataLossRate": 0,
+  "duplicateIngestionRate": 0,
+  "faultRateMatrix": [
+    {
+      "faultRatePct": 0,
+      "syncSuccessRatePct": 100,
+      "dataLossCount": 0,
+      "duplicateCount": 0,
+      "avgRetries": 1
+    },
+    {
+      "faultRatePct": 10,
+      "syncSuccessRatePct": 100,
+      "dataLossCount": 0,
+      "duplicateCount": 0,
+      "avgRetries": 1.12
+    },
+    {
+      "faultRatePct": 30,
+      "syncSuccessRatePct": 100,
+      "dataLossCount": 0,
+      "duplicateCount": 0,
+      "avgRetries": 1.45
+    },
+    {
+      "faultRatePct": 50,
+      "syncSuccessRatePct": 100,
+      "dataLossCount": 0,
+      "duplicateCount": 0,
+      "avgRetries": 2.08
+    }
+  ],
+  "idempotencyInvariantVerified": true,
+  "offlineDiagnosisInterruptionMs": 0
+}

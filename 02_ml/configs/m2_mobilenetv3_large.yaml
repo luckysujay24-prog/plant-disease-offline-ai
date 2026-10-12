@@ -1,0 +1,12 @@
+# M2: MobileNetV3-Large Reference Configuration
+experiment_id: "M2_mobilenetv3_large"
+model_architecture: "mobilenetv3_large"
+input_shape: [224, 224, 3]
+batch_size: 16
+epochs: 15
+learning_rate: 0.0003
+optimizer: "adam"
+label_smoothing: 0.08
+dropout_rate: 0.25
+seeds: [42, 123, 999]
+description: "Mid-size reference architecture"

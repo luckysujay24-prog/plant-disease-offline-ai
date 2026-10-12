@@ -1,0 +1,128 @@
+{
+  "modelVersion": "1.0.0",
+  "taxonomyVersion": "1.0.0",
+  "inputSize": [
+    224,
+    224,
+    3
+  ],
+  "numClasses": 38,
+  "classes": [
+    "apple__apple_scab",
+    "apple__black_rot",
+    "apple__cedar_apple_rust",
+    "apple__healthy",
+    "bell_pepper__bacterial_spot",
+    "bell_pepper__healthy",
+    "blueberry__healthy",
+    "cherry__healthy",
+    "cherry__powdery_mildew",
+    "corn__common_rust",
+    "corn__gray_leaf_spot",
+    "corn__healthy",
+    "corn__northern_leaf_blight",
+    "grape__black_rot",
+    "grape__esca",
+    "grape__healthy",
+    "grape__leaf_blight_isariopsis",
+    "orange__citrus_greening",
+    "peach__bacterial_spot",
+    "peach__healthy",
+    "potato__early_blight",
+    "potato__healthy",
+    "potato__late_blight",
+    "raspberry__healthy",
+    "soybean__healthy",
+    "squash__powdery_mildew",
+    "strawberry__healthy",
+    "strawberry__leaf_scorch",
+    "tomato__bacterial_spot",
+    "tomato__early_blight",
+    "tomato__healthy",
+    "tomato__late_blight",
+    "tomato__leaf_mold",
+    "tomato__mosaic_virus",
+    "tomato__septoria_leaf_spot",
+    "tomato__target_spot",
+    "tomato__two_spotted_spider_mite",
+    "tomato__yellow_leaf_curl_virus"
+  ],
+  "cropToIndices": {
+    "apple": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "blueberry": [
+      6
+    ],
+    "cherry": [
+      7,
+      8
+    ],
+    "corn": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "grape": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "orange": [
+      17
+    ],
+    "peach": [
+      18,
+      19
+    ],
+    "bell_pepper": [
+      4,
+      5
+    ],
+    "potato": [
+      20,
+      21,
+      22
+    ],
+    "raspberry": [
+      23
+    ],
+    "soybean": [
+      24
+    ],
+    "squash": [
+      25
+    ],
+    "strawberry": [
+      26,
+      27
+    ],
+    "tomato": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  "calibratedTau": {
+    "known": 0.4,
+    "unknown": 0.5
+  },
+  "temperatures": {
+    "known": 1,
+    "unknown": 1.05
+  },
+  "modelSizeBytes": 316699,
+  "lastEvaluated": "2026-10-09T15:07:36.292Z"
+}

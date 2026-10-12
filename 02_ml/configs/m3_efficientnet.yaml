@@ -1,0 +1,12 @@
+# M3: EfficientNet-Style Ceiling & Teacher Configuration
+experiment_id: "M3_efficientnet_teacher"
+model_architecture: "efficientnet"
+input_shape: [224, 224, 3]
+batch_size: 16
+epochs: 15
+learning_rate: 0.0002
+optimizer: "adam"
+label_smoothing: 0.1
+dropout_rate: 0.3
+seeds: [42, 123, 999]
+description: "Accuracy ceiling and knowledge distillation teacher candidate"

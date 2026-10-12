@@ -1,0 +1,48 @@
+# Environments & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node & Frontend dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Datasets (Section 2 & Section 3: Do not commit raw or processed images)
+01_data/raw/
+01_data/processed/
+
+# ML Model checkpoints (Section 2: large files gitignored; tfjs/ committed)
+02_ml/models/keras/
+02_ml/models/tflite/
+02_ml/data/
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.whl
+
+# Environment secrets & local config
+.env
+.env*.local
+*.pem
+*.key
+
+# Playwright & test reports
+test-results/
+playwright-report/
+blob-report/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

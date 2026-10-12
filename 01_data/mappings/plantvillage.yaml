@@ -1,0 +1,157 @@
+dataset: "plantvillage"
+domain: "lab"
+citation: "Hughes & Salathe, arXiv:1511.08060 (2015); Mohanty et al., Frontiers in Plant Science (2016)"
+license: "CC BY 4.0 / Open Access"
+mappings:
+  "Apple___Apple_scab":
+    target: "apple__apple_scab"
+    match_level: "exact"
+    reason: "Direct match: apple foliar apple scab (Venturia inaequalis)"
+  "Apple___Black_rot":
+    target: "apple__black_rot"
+    match_level: "exact"
+    reason: "Direct match: apple black rot (Botryosphaeria obtusa)"
+  "Apple___Cedar_apple_rust":
+    target: "apple__cedar_apple_rust"
+    match_level: "exact"
+    reason: "Direct match: cedar apple rust (Gymnosporangium juniperi-virginianae)"
+  "Apple___healthy":
+    target: "apple__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy apple foliage"
+  "Blueberry___healthy":
+    target: "blueberry__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy blueberry foliage"
+  "Cherry_(including_sour)___Powdery_mildew":
+    target: "cherry__powdery_mildew"
+    match_level: "exact"
+    reason: "Direct match: cherry powdery mildew (Podosphaera clandestina)"
+  "Cherry_(including_sour)___healthy":
+    target: "cherry__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy cherry foliage"
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot":
+    target: "corn__gray_leaf_spot"
+    match_level: "exact"
+    reason: "Direct match: corn gray leaf spot (Cercospora zeae-maydis)"
+  "Corn_(maize)___Common_rust_":
+    target: "corn__common_rust"
+    match_level: "exact"
+    reason: "Direct match: corn common rust (Puccinia sorghi)"
+  "Corn_(maize)___Northern_Leaf_Blight":
+    target: "corn__northern_leaf_blight"
+    match_level: "exact"
+    reason: "Direct match: corn northern leaf blight (Setosphaeria turcica)"
+  "Corn_(maize)___healthy":
+    target: "corn__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy corn foliage"
+  "Grape___Black_rot":
+    target: "grape__black_rot"
+    match_level: "exact"
+    reason: "Direct match: grape black rot (Guignardia bidwellii)"
+  "Grape___Esca_(Black_Measles)":
+    target: "grape__esca"
+    match_level: "exact"
+    reason: "Direct match: grape esca / black measles"
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)":
+    target: "grape__leaf_blight_isariopsis"
+    match_level: "exact"
+    reason: "Direct match: grape leaf blight / Isariopsis leaf spot"
+  "Grape___healthy":
+    target: "grape__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy grape foliage"
+  "Orange___Haunglongbing_(Citrus_greening)":
+    target: "orange__citrus_greening"
+    match_level: "exact"
+    reason: "Direct match: citrus greening / Huanglongbing"
+  "Peach___Bacterial_spot":
+    target: "peach__bacterial_spot"
+    match_level: "exact"
+    reason: "Direct match: peach bacterial spot (Xanthomonas arboricola)"
+  "Peach___healthy":
+    target: "peach__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy peach foliage"
+  "Pepper,_bell___Bacterial_spot":
+    target: "bell_pepper__bacterial_spot"
+    match_level: "exact"
+    reason: "Direct match: bell pepper bacterial spot"
+  "Pepper,_bell___healthy":
+    target: "bell_pepper__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy bell pepper foliage"
+  "Potato___Early_blight":
+    target: "potato__early_blight"
+    match_level: "exact"
+    reason: "Direct match: potato early blight (Alternaria solani)"
+  "Potato___Late_blight":
+    target: "potato__late_blight"
+    match_level: "exact"
+    reason: "Direct match: potato late blight (Phytophthora infestans)"
+  "Potato___healthy":
+    target: "potato__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy potato foliage"
+  "Raspberry___healthy":
+    target: "raspberry__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy raspberry foliage"
+  "Soybean___healthy":
+    target: "soybean__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy soybean foliage"
+  "Squash___Powdery_mildew":
+    target: "squash__powdery_mildew"
+    match_level: "exact"
+    reason: "Direct match: squash powdery mildew"
+  "Strawberry___Leaf_scorch":
+    target: "strawberry__leaf_scorch"
+    match_level: "exact"
+    reason: "Direct match: strawberry leaf scorch"
+  "Strawberry___healthy":
+    target: "strawberry__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy strawberry foliage"
+  "Tomato___Bacterial_spot":
+    target: "tomato__bacterial_spot"
+    match_level: "exact"
+    reason: "Direct match: tomato bacterial spot"
+  "Tomato___Early_blight":
+    target: "tomato__early_blight"
+    match_level: "exact"
+    reason: "Direct match: tomato early blight (Alternaria solani)"
+  "Tomato___Late_blight":
+    target: "tomato__late_blight"
+    match_level: "exact"
+    reason: "Direct match: tomato late blight (Phytophthora infestans)"
+  "Tomato___Leaf_Mold":
+    target: "tomato__leaf_mold"
+    match_level: "exact"
+    reason: "Direct match: tomato leaf mold (Passalora fulva)"
+  "Tomato___Septoria_leaf_spot":
+    target: "tomato__septoria_leaf_spot"
+    match_level: "exact"
+    reason: "Direct match: tomato septoria leaf spot"
+  "Tomato___Spider_mites Two-spotted_spider_mite":
+    target: "tomato__two_spotted_spider_mite"
+    match_level: "exact"
+    reason: "Direct match: tomato two-spotted spider mite"
+  "Tomato___Target_Spot":
+    target: "tomato__target_spot"
+    match_level: "exact"
+    reason: "Direct match: tomato target spot (Corynespora cassiicola)"
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus":
+    target: "tomato__yellow_leaf_curl_virus"
+    match_level: "exact"
+    reason: "Direct match: tomato yellow leaf curl virus"
+  "Tomato___Tomato_mosaic_virus":
+    target: "tomato__mosaic_virus"
+    match_level: "exact"
+    reason: "Direct match: tomato mosaic virus"
+  "Tomato___healthy":
+    target: "tomato__healthy"
+    match_level: "exact"
+    reason: "Direct match: healthy tomato foliage"

@@ -1,0 +1,60 @@
+{
+  "title": "An Offline-First Edge AI Framework for Multi-Crop Plant Disease Detection and Evidence-Based Agronomic Care Guidance",
+  "generatedAt": "2026-10-11T12:53:00.000Z",
+  "system": {
+    "totalClasses": 38,
+    "totalCrops": 14,
+    "selectedModel": "MobileNetV3-Small (M1)",
+    "modelParameters": 72134,
+    "modelSizeKb": 285,
+    "cpuInferenceLatencyMs": 7.08,
+    "rejectionThresholdTau": 0.4,
+    "ece": 0.0998
+  },
+  "performance": {
+    "top1Accuracy": 0.9051,
+    "top3Accuracy": 0.9738,
+    "macroF1": 0.8656,
+    "weightedF1": 0.9030,
+    "cropKnownAccuracy": 0.9051,
+    "cropUnknownAccuracy": 0.9051,
+    "conditioningGainDelta": 0.0,
+    "plantvillageSamples": 8251,
+    "plantvillageKnownAcc": 0.9051,
+    "plantvillageUnknownAcc": 0.9051,
+    "totalDatasetImages": 55110,
+    "trainSamples": 38661,
+    "valSamples": 8198,
+    "testSamples": 8251,
+    "bestValAccuracy": 0.9079
+  },
+  "systemEfficiency": {
+    "offlineDiagnosisNetworkCalls": 0,
+    "offlineDiagnosisLatencyImpactMs": 0,
+    "dataLossRatePct": 0,
+    "duplicateSyncRatePct": 0,
+    "totalStorageMb100Scans": 6.52
+  },
+  "robustness_E8": {
+    "promotedModel": "MobileNetV3-Small-Deploy (2.0.0)",
+    "cleanLabAccuracy": 0.9051,
+    "compressedGainPct": 3.5,
+    "jpeg10GainPct": 8.0,
+    "noLeafGateAccuracyPct": 96.0,
+    "maxTestedResolutionMp": 48
+  },
+  "advisor_E9": {
+    "totalScenarios": 72,
+    "ruleEnginePassRatePct": 100.0,
+    "brandViolations": 0,
+    "dosageViolations": 0,
+    "disclaimerCoveragePct": 100.0,
+    "rulesCoveredCount": 8
+  },
+  "nonblocking_E10": {
+    "maxLatencyDeltaAcrossStatesMs": 0.4,
+    "independenceVerified": true,
+    "offlineNetworkRequests": 0,
+    "statesEvaluatedCount": 5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "plant-disease-offline-pwa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.17.0",
+    "idb": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.10",
+    "vite-plugin-pwa": "^0.19.8",
+    "vitest": "^1.5.0"
+  }
+}

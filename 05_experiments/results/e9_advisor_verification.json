@@ -1,0 +1,212 @@
+{
+  "experimentId": "E9",
+  "experimentName": "Nutrition & Care Advisor Rule Engine Verification & Coverage",
+  "totalScenarios": 72,
+  "passedScenarios": 72,
+  "passRatePct": 100,
+  "brandViolations": 0,
+  "dosageViolations": 0,
+  "disclaimerCoveragePct": 100,
+  "rulesCovered": [
+    {
+      "ruleId": "R1",
+      "name": "Rainfall Leaching Prevention",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R2",
+      "name": "Dry Application Window",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R3",
+      "name": "Moderate Rain Caution",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R4",
+      "name": "Midday High Heat Foliar Caution",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R5",
+      "name": "High Wind Foliar Drift Caution",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R6",
+      "name": "Fungal Soil Nutrition Precaution",
+      "triggerCount": 42,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R7",
+      "name": "Bacterial Foliar Wetness Precaution",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    },
+    {
+      "ruleId": "R8",
+      "name": "Stale Forecast Fallback",
+      "triggerCount": 12,
+      "status": "VERIFIED"
+    }
+  ],
+  "sampleMatrix": [
+    {
+      "crop": "tomato",
+      "condition": "tomato__early_blight",
+      "weatherScenarioId": "HEAVY_RAIN",
+      "day0SoilStatus": "WAIT",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Do not put fertilizer on today. Rain is likely and may wash it away.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__early_blight",
+      "weatherScenarioId": "MODERATE_RAIN",
+      "day0SoilStatus": "WAIT",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Do not put fertilizer on today. Rain is likely and may wash it away.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__early_blight",
+      "weatherScenarioId": "FAVORABLE_DRY",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__early_blight",
+      "weatherScenarioId": "HIGH_HEAT",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__early_blight",
+      "weatherScenarioId": "HIGH_WIND",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__early_blight",
+      "weatherScenarioId": "OFFLINE_FALLBACK",
+      "day0SoilStatus": "NONE_FALLBACK",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Weather forecast not available. Timing advice is limited.",
+      "hasOutlook": false,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__bacterial_spot",
+      "weatherScenarioId": "HEAVY_RAIN",
+      "day0SoilStatus": "WAIT",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Do not put fertilizer on today. Rain is likely and may wash it away.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__bacterial_spot",
+      "weatherScenarioId": "MODERATE_RAIN",
+      "day0SoilStatus": "WAIT",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Do not put fertilizer on today. Rain is likely and may wash it away.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__bacterial_spot",
+      "weatherScenarioId": "FAVORABLE_DRY",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__bacterial_spot",
+      "weatherScenarioId": "HIGH_HEAT",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__bacterial_spot",
+      "weatherScenarioId": "HIGH_WIND",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": true,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__bacterial_spot",
+      "weatherScenarioId": "OFFLINE_FALLBACK",
+      "day0SoilStatus": "NONE_FALLBACK",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Weather forecast not available. Timing advice is limited.",
+      "hasOutlook": false,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__mosaic_virus",
+      "weatherScenarioId": "HEAVY_RAIN",
+      "day0SoilStatus": "WAIT",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Do not put fertilizer on today. Rain is likely and may wash it away.",
+      "hasOutlook": false,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__mosaic_virus",
+      "weatherScenarioId": "MODERATE_RAIN",
+      "day0SoilStatus": "WAIT",
+      "expectedDay0SoilStatus": "WAIT",
+      "actionHeadline": "Do not put fertilizer on today. Rain is likely and may wash it away.",
+      "hasOutlook": false,
+      "passed": true
+    },
+    {
+      "crop": "tomato",
+      "condition": "tomato__mosaic_virus",
+      "weatherScenarioId": "FAVORABLE_DRY",
+      "day0SoilStatus": "GOOD",
+      "expectedDay0SoilStatus": "GOOD",
+      "actionHeadline": "Favorable weather today for crop feeding.",
+      "hasOutlook": false,
+      "passed": true
+    }
+  ]
+}

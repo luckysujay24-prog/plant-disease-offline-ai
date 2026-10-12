@@ -1,0 +1,15 @@
+# Pinned Python Dependencies for ML Training, Evaluation, and TF.js Conversion
+# Python Version: 3.11.x
+
+tensorflow==2.16.1
+tensorflowjs==4.17.0
+scikit-learn==1.4.2
+imagehash==4.3.1
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+pillow==10.3.0
+pyyaml==6.0.1
+pytest==8.2.0
+requests==2.31.0
+tqdm==4.66.4

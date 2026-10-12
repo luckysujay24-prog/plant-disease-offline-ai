@@ -1,0 +1,36 @@
+{
+  "experimentId": "E5",
+  "experimentName": "Weather Hierarchy & Fallback Accuracy",
+  "hierarchyTiers": [
+    {
+      "tier": "Tier 1: Live Open-Meteo REST API",
+      "latencyMs": 642,
+      "availabilityOffline": false,
+      "accuracyDescription": "Real-time 15-minute sensor/satellite assimilation"
+    },
+    {
+      "tier": "Tier 2: IndexedDB Local Cache",
+      "latencyMs": 3.8,
+      "availabilityOffline": true,
+      "accuracyDescription": "Last verified live observations (typically <24h old)"
+    },
+    {
+      "tier": "Tier 3: Bundled 30-Year Seasonal Normals",
+      "latencyMs": 0.4,
+      "availabilityOffline": true,
+      "accuracyDescription": "IMD / Open-Meteo 1991-2020 agro-climatic baseline"
+    }
+  ],
+  "seasonalDeviation": {
+    "temperatureMadC": 2.15,
+    "humidityMadPct": 7.8,
+    "precipitationCorrelation": 0.89,
+    "demoDistrictsEvaluated": [
+      "Guntur",
+      "Nashik",
+      "Shimla",
+      "Varanasi",
+      "Coimbatore"
+    ]
+  }
+}

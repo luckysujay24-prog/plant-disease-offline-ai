@@ -1,0 +1,16 @@
+{
+  "experimentId": "E7",
+  "experimentName": "Storage Footprint & Cold Start Profile",
+  "storageBreakdownKb": {
+    "appShellAndAssets": 2095,
+    "edgeModelShards": 310,
+    "knowledgeAndNormals": 24,
+    "hundredCompressedScansWithThumbnails": 4250,
+    "totalStorage100ScansMb": 6.52
+  },
+  "coldStartProfileMs": {
+    "modelWarmupLatencyMs": 78.5,
+    "firstContentfulPaintOfflineMs": 142,
+    "timeToInteractiveOfflineMs": 220
+  }
+}

@@ -1,0 +1,15 @@
+# M1: MobileNetV3-Small Architecture (Primary Deployment Candidate)
+experiment_id: "M1_mobilenetv3_small"
+model_architecture: "mobilenetv3_small"
+input_shape: [224, 224, 3]
+batch_size: 16
+epochs: 15
+learning_rate: 0.0005
+min_learning_rate: 0.00001
+optimizer: "adam"
+label_smoothing: 0.08
+weight_decay: 0.0001
+dropout_rate: 0.2
+seeds: [42, 123, 999]
+target_model_size_mb: 15.0
+description: "Primary edge deployment candidate optimized for in-browser inference"
