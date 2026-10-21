@@ -96,12 +96,6 @@ Measured on the held-out test partition of **8,251 images**.
 
 ---
 
-## 📱 Screenshots
-
-| Home | Diagnosis result | Saved scans | Settings |
-|---|---|---|---|
-| ![Home](docs/screenshots/ui_home.png) | ![Result](docs/screenshots/ui_result.png) | ![History](docs/screenshots/ui_history.png) | ![Settings](docs/screenshots/ui_settings.png) |
-
 **Diagnosis across crops and reliability tiers:**
 
 | Orange — Huanglongbing | Bell Pepper — Bacterial Spot | Peach — Bacterial Spot | Cherry — Powdery Mildew |
